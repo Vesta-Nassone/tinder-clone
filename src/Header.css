@@ -1,0 +1,16 @@
+.header {
+  align-items: center; /* keep the icons centered*/
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+}
+
+.header__logo {
+  object-fit: contain; /* neat trick to keep image resoltion*/
+  height: 40px;
+  width: 90px;
+}
+
+.header__icon {
+  padding: 20px;
+}
